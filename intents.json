@@ -1,0 +1,52 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+       "patterns": ["Hi", "Hello", "Hey", "Hi there","Hei", "Hello there", "Hey!", "Good day", "Greetings"],
+       "responses": [
+        "Hello! May I know your name?", 
+        "Hi there! What's your name?",
+        "Hey! Can I get your name, please?"]
+      },
+      {
+        "tag": "get_name",
+        "patterns": ["My name is", "I'm", "I am", "This is",  "It's", "I am called", "Call me"],
+        "responses": ["Nice to meet you!"]
+      },
+      {
+        "tag": "get_phone",
+        "patterns": ["Here is my phone number", "My phone number is", "It's", "You can reach me at"],
+        "responses": ["Thank you for providing your phone number!"]
+      },
+      {
+        "tag": "get_vin_details",
+        "patterns": ["Here is my VIN number", "My VIN number is", "Can you find my car details?", "Get my car details", "What is my car information?"],
+        "responses": ["Fetching your car details..."]
+      },
+      {
+        "tag": "part_inquiry",
+        "patterns": ["Can you check stock for", "Do you have", "What is the price of", "I need details about the part", "Is the part available"],
+        "responses": ["Let me check the stock and price for you..."]
+      },
+      {
+        "tag": "feedback_request",
+        "patterns": [
+          "Was this information helpful?",
+          "How would you rate your experience?",
+          "Please rate your experience from 1 to 5"
+        ],
+        "responses": [
+          "Thank you for your feedback!"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye","thank you","ok thankyou"],
+        "responses": [
+          "Thank you for chatting with us! If you need any further assistance, feel free to reach out. Have a great day!",
+          "I'm glad I could help you today! If anything else comes up, I'll be here to assist you. Goodbye for now!",
+          "It was a pleasure assisting you. If you need more information, just come back any time. Have a wonderful day!"]
+      }
+    ]
+  }
+  
